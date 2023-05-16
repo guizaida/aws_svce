@@ -1,17 +1,16 @@
-[[_TOC_]]
 ## 使用指南
----
+
 這是一個用於操作 AWS 服務的範例程式庫。以下是如何使用它的步驟：
 
 ## 安裝
----
+
 在開始之前，請確保已經安裝了 boto3 庫。你可以使用以下指令進行安裝：
 
 ```shell
 pip install boto3
 ```
 ## 使用範例
----
+
 以下是使用 AwsSvce 類別的範例程式碼：
 ```python
 from dx_project import AwsSvce
@@ -52,7 +51,7 @@ secret_manager_client = svce.secret_manager_client
 # 現在，你可以使用這些客戶端對相應的 AWS 服務進行操作了
 
 ```
----
+
 ## 注意事項
 - 如果提供了訪問金鑰和密鑰，將使用這些值來驗證客戶端。
 - 如果提供了終端點 URL，將使用該 URL 作為服務的端點。
