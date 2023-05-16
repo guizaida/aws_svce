@@ -5,7 +5,7 @@ class AwsSvce(object):
     '''
     Example of use \n
 
-    from dx_project import AwsSvce\n
+    from aws_svce import AwsSvce\n
     AwsSvce(\n
     region='',\n
     access_key='',\n
