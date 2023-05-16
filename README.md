@@ -13,7 +13,7 @@ pip install boto3
 
 以下是使用 AwsSvce 類別的範例程式碼：
 ```python
-from dx_project import AwsSvce
+from aws_svce import AwsSvce
 
 # 創建 AwsSvce 實例
 svce = AwsSvce(
